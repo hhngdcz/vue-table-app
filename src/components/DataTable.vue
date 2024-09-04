@@ -171,10 +171,6 @@ export default {
       return Math.ceil(this.filteredItems.length / this.itemsPerPage);
     },
   },
-  methods: {
-    toggleDetails(item) {
-      item.showDetails = !item.showDetails;
-    },
-  },
+
 };
 </script>
